@@ -1,6 +1,6 @@
 <!-- ============================== HEADER ============================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:1e3a5f,100:22d3ee&height=210&section=header&text=Sujith%20Krishna%20P%20G&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Electronics%20%26%20Communication%20Engineering&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Sujith Krishna P G"/>
+  <img src="assets/header.svg" width="100%" alt="Sujith Krishna P G - Electronics &amp; Communication Engineering"/>
 </p>
 
 <p align="center">
@@ -186,14 +186,10 @@ endmodule
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SujithPG-coder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SujithPG-coder&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages"/>
+  <img src="assets/highlights.svg" width="85%" alt="Portfolio at a glance"/>
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=SujithPG-coder&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-</p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SujithPG-coder&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph"/>
 </p>
 
 ---
@@ -204,5 +200,5 @@ endmodule
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:1e3a5f,100:0b1220&height=120&section=footer" width="100%" alt="Footer"/>
+  <img src="assets/footer.svg" width="100%" alt="Footer"/>
 </p>

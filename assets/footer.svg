@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 120" width="1280" height="120" role="img" aria-label="Footer wave">
+  <defs>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".5"/><stop offset="1" stop-color="#6366f1" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="f2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123a5a"/><stop offset="1" stop-color="#070d1a"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#f1)" d="M0 40 C 240 10, 440 70, 640 40 S 1060 14, 1280 44 V120 H0 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 40 C 240 10, 440 70, 640 40 S 1060 14, 1280 44 V120 H0 Z;
+              M0 46 C 220 70, 460 16, 640 44 S 1040 70, 1280 36 V120 H0 Z;
+              M0 40 C 240 10, 440 70, 640 40 S 1060 14, 1280 44 V120 H0 Z"/>
+  </path>
+  <path fill="url(#f2)" d="M0 62 C 260 40, 480 90, 700 62 S 1100 44, 1280 66 V120 H0 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 62 C 260 40, 480 90, 700 62 S 1100 44, 1280 66 V120 H0 Z;
+              M0 66 C 240 92, 520 44, 700 60 S 1080 90, 1280 58 V120 H0 Z;
+              M0 62 C 260 40, 480 90, 700 62 S 1100 44, 1280 66 V120 H0 Z"/>
+  </path>
+</svg>

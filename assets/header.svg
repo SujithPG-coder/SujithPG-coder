@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" width="1280" height="280" role="img" aria-label="Sujith Krishna P G - Electronics and Communication Engineering">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d1a"/>
+      <stop offset="0.55" stop-color="#0f1f38"/>
+      <stop offset="1" stop-color="#123a5a"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="0.5" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#16263f" stroke-width="0.8"/>
+    </pattern>
+    <style>
+      .name { font: 800 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1px;
+              opacity: 0; animation: rise 1.2s ease-out .2s forwards; }
+      .tag  { font: 500 22px 'Fira Code', Consolas, monospace; fill: #94a3b8; letter-spacing: 3px;
+              opacity: 0; animation: rise 1.2s ease-out .8s forwards; }
+      .uni  { font: 400 16px 'Segoe UI', Arial, sans-serif; fill: #64748b; letter-spacing: 2px;
+              opacity: 0; animation: rise 1.2s ease-out 1.3s forwards; }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: translateY(0) } }
+      .trace { fill: none; stroke: #1d3557; stroke-width: 2; }
+      .blink { animation: blink 2s ease-in-out infinite; }
+      @keyframes blink { 0%,100% { opacity: .3 } 50% { opacity: 1 } }
+      .sig { animation: sig 6s linear infinite; }
+      @keyframes sig { from { transform: translateX(0) } to { transform: translateX(-160px) } }
+    </style>
+    <clipPath id="sigclip"><rect x="0" y="0" width="1280" height="280"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="280" fill="url(#sky)"/>
+  <rect width="1280" height="280" fill="url(#grid)" opacity=".7"/>
+
+  <!-- circuit traces left -->
+  <g class="trace">
+    <path id="a1" d="M0 60 H90 L120 90 H210"/>
+    <path id="a2" d="M0 130 H150 L170 110 H240"/>
+    <path id="a3" d="M0 190 H70 L100 160 H180"/>
+    <path id="b1" d="M1280 60 H1190 L1160 90 H1070"/>
+    <path id="b2" d="M1280 130 H1130 L1110 110 H1040"/>
+    <path id="b3" d="M1280 190 H1210 L1180 160 H1100"/>
+  </g>
+  <g fill="#1d3557">
+    <circle cx="210" cy="90" r="5"/><circle cx="240" cy="110" r="5"/><circle cx="180" cy="160" r="5"/>
+    <circle cx="1070" cy="90" r="5"/><circle cx="1040" cy="110" r="5"/><circle cx="1100" cy="160" r="5"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle r="4" fill="#22d3ee"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#a1"/></animateMotion></circle>
+    <circle r="4" fill="#a78bfa"><animateMotion dur="2.4s" begin="0.6s" repeatCount="indefinite"><mpath href="#a2"/></animateMotion></circle>
+    <circle r="4" fill="#34d399"><animateMotion dur="3.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#a3"/></animateMotion></circle>
+    <circle r="4" fill="#f472b6"><animateMotion dur="2.8s" begin="0.3s" repeatCount="indefinite"><mpath href="#b1"/></animateMotion></circle>
+    <circle r="4" fill="#22d3ee"><animateMotion dur="3.2s" begin="1s" repeatCount="indefinite"><mpath href="#b2"/></animateMotion></circle>
+    <circle r="4" fill="#fbbf24"><animateMotion dur="2.6s" begin="1.6s" repeatCount="indefinite"><mpath href="#b3"/></animateMotion></circle>
+  </g>
+  <circle class="blink" cx="210" cy="90" r="5" fill="#22d3ee" filter="url(#glow)"/>
+  <circle class="blink" cx="1070" cy="90" r="5" fill="#f472b6" filter="url(#glow)" style="animation-delay:1s"/>
+
+  <!-- title -->
+  <text x="640" y="118" text-anchor="middle" class="name" fill="url(#txt)">Sujith Krishna P G</text>
+  <text x="640" y="160" text-anchor="middle" class="tag">ELECTRONICS &amp; COMMUNICATION ENGINEERING</text>
+  <text x="640" y="190" text-anchor="middle" class="uni">VLSI · FPGA · ANALOG · DSP · MACHINE LEARNING</text>
+
+  <!-- scrolling signal across the bottom -->
+  <g clip-path="url(#sigclip)" opacity=".85">
+    <g class="sig">
+      <path fill="none" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"
+        d="M0 228 q40 -22 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0"/>
+    </g>
+  </g>
+
+  <!-- waves -->
+  <path fill="url(#w1)" d="M0 248 C 220 228, 420 270, 640 250 S 1060 232, 1280 252 V280 H0 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 248 C 220 228, 420 270, 640 250 S 1060 232, 1280 252 V280 H0 Z;
+              M0 252 C 240 270, 440 232, 640 248 S 1040 268, 1280 246 V280 H0 Z;
+              M0 248 C 220 228, 420 270, 640 250 S 1060 232, 1280 252 V280 H0 Z"/>
+  </path>
+  <path fill="url(#w2)" d="M0 262 C 260 250, 460 280, 700 264 S 1100 252, 1280 266 V280 H0 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 262 C 260 250, 460 280, 700 264 S 1100 252, 1280 266 V280 H0 Z;
+              M0 266 C 240 280, 520 252, 700 262 S 1080 278, 1280 260 V280 H0 Z;
+              M0 262 C 260 250, 460 280, 700 264 S 1100 252, 1280 266 V280 H0 Z"/>
+  </path>
+</svg>
