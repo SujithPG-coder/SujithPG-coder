@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/SujithPG-coder">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=ECE+Undergraduate+%40+Amrita+Vishwa+Vidyapeetham;IEEE+Xplore+Published+Author;EV+%26+Automotive+Electronics+Enthusiast;VLSI+%26+FPGA+Design+Enthusiast;Embedded+Systems+%26+Networking;From+Schematic+to+Silicon" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=ECE+Undergraduate;IEEE+Xplore+Published+Author;EV+%26+Automotive+Electronics+Enthusiast;VLSI+%26+FPGA+Design+Enthusiast;Embedded+Systems+%26+Networking;From+Schematic+to+Silicon" alt="Typing SVG"/>
   </a>
 </p>
 
