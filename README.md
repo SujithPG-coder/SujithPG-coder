@@ -169,7 +169,7 @@ endmodule
 <img src="https://img.shields.io/badge/Eagle_PCB-0696D7?style=for-the-badge&logo=autodesk&logoColor=white"/>
 
 **Embedded & Networking**<br/>
-<img src="https://img.shields.io/badge/Keil_µVision-394F5F?style=for-the-badge&logo=arm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Keil_uVision-394F5F?style=for-the-badge&logo=arm&logoColor=white"/>
 <img src="https://img.shields.io/badge/Arduino_IDE-00878F?style=for-the-badge&logo=arduino&logoColor=white"/>
 <img src="https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
