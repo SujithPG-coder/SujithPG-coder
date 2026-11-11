@@ -208,6 +208,17 @@ endmodule
 
 ---
 
+<!-- ============================== ACHIEVEMENTS ============================== -->
+## 🏅 GitHub Achievements
+
+<p align="center">
+  <a href="https://github.com/SujithPG-coder?tab=achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="100" alt="Quickdraw" title="Quickdraw: closed an issue within 5 minutes of opening"/>
+  </a>
+</p>
+
+---
+
 <!-- ============================== STATS ============================== -->
 ## 📊 GitHub Analytics
 
