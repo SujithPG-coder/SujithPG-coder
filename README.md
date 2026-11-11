@@ -33,7 +33,6 @@ module SujithKrishnaPG (
     output reg  [7:0] innovation
 );
     // B.Tech ECE @ Amrita Vishwa Vidyapeetham
-    parameter BATCH  = "2023 - 2027";
     parameter FOCUS  = "EV | Automotive | VLSI";
     parameter ALSO   = "Embedded | Networking | DSP";
     parameter LANGS  = "C | C++ | Python | SQL | Verilog";
@@ -56,7 +55,7 @@ endmodule
 - 🚗 Industry internships in the **automotive and EV sectors** at **Pricol Limited** and **L&T EduTech**
 - 📄 Published author in **IEEE Xplore**: power- and area-optimized FFT hardware architectures
 - 🔬 Hands-on across **EV modelling, automotive electronics testing, FPGA/RTL design, analog circuits and data analysis**
-- 🎯 Aiming to build my career in **network and business development in the EV industry**
+- 🎯 Aiming to build my career in **network and business development**
 
 ---
 
