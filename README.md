@@ -128,103 +128,20 @@ endmodule
 ---
 
 
-<!-- ============================== PROJECTS ============================== -->
-## 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/fpga-vending-machine-verilog">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/fpga-vending-machine-verilog/main/docs/images/hw_product_select.jpg" width="100%" alt="FPGA vending machine"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/fpga-vending-machine-verilog">🥤 FPGA-Based Vending Machine</a></h3>
-      A 7-state FSM on the Basys3 FPGA with keypad input, multiplexed 7-segment display, change return, refund and out-of-stock detection. Verified with a self-checking testbench.<br/><br/>
-      <img src="https://img.shields.io/badge/Verilog-1e3a5f?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Vivado-E01F27?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Basys3-0b1220?style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/heart-disease-prediction-ml">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/heart-disease-prediction-ml/main/results/figures/accuracy_heatmap.png" width="100%" alt="Heart disease ML"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/heart-disease-prediction-ml">❤️ Heart Disease Prediction</a></h3>
-      Compares 6 feature-selection methods, including a proposed ensemble mutual-information algorithm (<b>EEMIFS</b>), across 6 classifiers on the Cleveland dataset, with 10-fold cross-validation.<br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/image-steganography-fft">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/image-steganography-fft/main/docs/images/analysis_lsb.png" width="100%" alt="Image steganography"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/image-steganography-fft">🖼️ Image Steganography with FFT</a></h3>
-      Hides text in images using spatial LSB and frequency-domain DCT-QIM embedding, with FFT spectrum analysis, a Tkinter GUI, a CLI and unit tests.<br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-      <img src="https://img.shields.io/badge/DSP-FFT%20%7C%20DCT-22d3ee?style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/digital-locking-system">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/digital-locking-system/main/docs/images/full_circuit.png" width="100%" alt="Digital lock"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/digital-locking-system">🔐 Digital Locking System</a></h3>
-      A microcontroller-free 4-digit keypad lock built from 74xx/CD4000 logic ICs, with an unauthorized-access alert. Simulated in Proteus and modelled in Verilog.<br/><br/>
-      <img src="https://img.shields.io/badge/Digital%20Logic-1e3a5f?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Proteus-1E90FF?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Verilog-0b1220?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/schmitt-trigger-hysteresis-window">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/schmitt-trigger-hysteresis-window/main/docs/images/sim_transient.png" width="100%" alt="Schmitt trigger"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/schmitt-trigger-hysteresis-window">📈 Schmitt Trigger: 1 V – 3 V Hysteresis</a></h3>
-      An LM741 inverting Schmitt trigger that removes noise-induced chatter, taken from hand design through SPICE simulation and breadboard to PCB.<br/><br/>
-      <img src="https://img.shields.io/badge/LTspice-orange?style=flat-square"/>
-      <img src="https://img.shields.io/badge/ngspice-1e3a5f?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Eagle%20PCB-0696D7?style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/four-stage-bjt-amplifier">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/four-stage-bjt-amplifier/main/docs/images/frequency_response.png" width="100%" alt="BJT amplifier"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/four-stage-bjt-amplifier">🔊 4-Stage BJT Amplifier</a></h3>
-      A cascaded BC547 common-emitter amplifier delivering about 39 dB of gain, with a flat response from 25 Hz to 100 kHz. Simulated and measured on hardware.<br/><br/>
-      <img src="https://img.shields.io/badge/Analog-1e3a5f?style=flat-square"/>
-      <img src="https://img.shields.io/badge/LTspice-orange?style=flat-square"/>
-      <img src="https://img.shields.io/badge/BC547-0b1220?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/SujithPG-coder/zener-voltage-regulator">
-        <img src="https://raw.githubusercontent.com/SujithPG-coder/zener-voltage-regulator/main/docs/images/ltspice_schematic.png" width="100%" alt="Zener regulator"/>
-      </a>
-      <h3><a href="https://github.com/SujithPG-coder/zener-voltage-regulator">⚡ Zener Voltage Regulator</a></h3>
-      A transformer-less 4.1 V regulator for a 6–8 V pulsating DC input and a 0–70 mA load, built with E24 components.<br/><br/>
-      <img src="https://img.shields.io/badge/EDC-1e3a5f?style=flat-square"/>
-      <img src="https://img.shields.io/badge/LTspice-orange?style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🅿️ Smart Parking Infrastructure (CPS)</h3>
-      A cyber-physical parking system that monitors slots in real time and controls access automatically, with embedded control logic for parking management and gate automation.<br/><br/>
-      <img src="https://img.shields.io/badge/Cyber--Physical%20Systems-1e3a5f?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Embedded%20C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-      <img src="https://img.shields.io/badge/IoT-22d3ee?style=flat-square"/>
-      <br/><br/><i>Repository coming soon</i>
-    </td>
-  </tr>
-</table>
+<!-- ============================== PORTFOLIO ============================== -->
+## 🗂️ Portfolio
 
 <p align="center">
-  <a href="https://github.com/SujithPG-coder?tab=repositories"><img src="https://img.shields.io/badge/Browse_All_Repositories-22d3ee?style=for-the-badge&logo=github&logoColor=0b1220" alt="All repositories"/></a>
+  Explore my work across <b>FPGA / VLSI design</b>, <b>digital logic</b>, <b>analog circuits</b>, <b>signal processing</b> and <b>machine learning</b>.
+</p>
+
+<p align="center">
+  <a href="https://github.com/SujithPG-coder?tab=repositories">
+    <img src="https://img.shields.io/badge/Visit_My_Portfolio-22d3ee?style=for-the-badge&logo=github&logoColor=0b1220" alt="Visit My Portfolio" height="40"/>
+  </a>
 </p>
 
 ---
-
 
 <!-- ============================== SKILLS ============================== -->
 ## 🧰 Tech Arsenal
