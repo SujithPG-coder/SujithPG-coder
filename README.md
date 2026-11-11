@@ -32,7 +32,7 @@ module SujithKrishnaPG (
     input  wire coffee,
     output reg  [7:0] innovation
 );
-    // B.Tech ECE @ Amrita Vishwa Vidyapeetham
+    // B.Tech ECE
     parameter FOCUS  = "EV | Automotive | VLSI";
     parameter ALSO   = "Embedded | Networking | DSP";
     parameter LANGS  = "C | C++ | Python | SQL | Verilog";
