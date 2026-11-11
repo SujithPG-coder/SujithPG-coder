@@ -72,7 +72,7 @@
   <!-- title -->
   <text x="640" y="118" text-anchor="middle" class="name" fill="url(#txt)">Sujith Krishna P G</text>
   <text x="640" y="160" text-anchor="middle" class="tag">ELECTRONICS &amp; COMMUNICATION ENGINEERING</text>
-  <text x="640" y="190" text-anchor="middle" class="uni">VLSI · FPGA · ANALOG · DSP · MACHINE LEARNING</text>
+  <text x="640" y="190" text-anchor="middle" class="uni">EV &amp; AUTOMOTIVE · VLSI · FPGA · EMBEDDED · DSP · ML</text>
 
   <!-- scrolling signal across the bottom -->
   <g clip-path="url(#sigclip)" opacity=".85">
