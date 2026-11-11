@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sujithkrishnapg/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:sujithkrishna2k5@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
   <a href="https://doi.org/10.1109/IATMSI68868.2026.11465218"><img src="https://img.shields.io/badge/IEEE_Xplore-Publication-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE publication"/></a>
   <a href="https://github.com/SujithPG-coder?tab=repositories"><img src="https://img.shields.io/badge/Projects-8-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
   <img src="https://komarev.com/ghpvc/?username=SujithPG-coder&label=Profile%20Views&color=22d3ee&style=for-the-badge" alt="Profile views"/>
