@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" role="img" aria-label="Animated integrated circuit with signal traces and waveforms">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="die" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f2a44"/>
+      <stop offset="1" stop-color="#121a2d"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1b2740" stroke-width="0.6"/>
+    </pattern>
+    <clipPath id="scope"><rect x="40" y="276" width="400" height="64" rx="8"/></clipPath>
+    <style>
+      .trace { fill: none; stroke: #23406b; stroke-width: 2; stroke-linecap: round; }
+      .pin   { fill: #8aa4c8; }
+      .lbl   { font-family: 'Fira Code', Consolas, monospace; fill: #7dd3fc; }
+      .sub   { font-family: 'Fira Code', Consolas, monospace; fill: #94a3b8; }
+      .led   { animation: blink 1.6s ease-in-out infinite; }
+      .led2  { animation: blink 1.6s ease-in-out infinite 0.8s; }
+      @keyframes blink { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+      .scroll { animation: scroll 4s linear infinite; }
+      @keyframes scroll { from { transform: translateX(0) } to { transform: translateX(-100px) } }
+      .core { animation: pulse 2.4s ease-in-out infinite; transform-origin: 240px 140px; }
+      @keyframes pulse { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+    </style>
+  </defs>
+
+  <rect width="480" height="360" rx="16" fill="url(#bg)"/>
+  <rect width="480" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- PCB traces -->
+  <g class="trace">
+    <path id="t1" d="M170 105 H110 V40 H20"/>
+    <path id="t2" d="M170 140 H20"/>
+    <path id="t3" d="M170 175 H120 V240 H20"/>
+    <path id="t4" d="M310 105 H370 V40 H460"/>
+    <path id="t5" d="M310 140 H460"/>
+    <path id="t6" d="M310 175 H360 V240 H460"/>
+    <path id="t7" d="M215 70 V20"/>
+    <path id="t8" d="M265 70 V30 H330 V12"/>
+    <path id="t9" d="M215 210 V258"/>
+    <path id="t10" d="M265 210 V250 H150 V262"/>
+  </g>
+  <g fill="#23406b">
+    <circle cx="20" cy="40" r="4"/><circle cx="20" cy="140" r="4"/><circle cx="20" cy="240" r="4"/>
+    <circle cx="460" cy="40" r="4"/><circle cx="460" cy="140" r="4"/><circle cx="460" cy="240" r="4"/>
+    <circle cx="215" cy="20" r="4"/><circle cx="330" cy="12" r="4"/>
+  </g>
+
+  <!-- Signal pulses travelling along traces -->
+  <g filter="url(#glow)">
+    <circle r="3.5" fill="#22d3ee"><animateMotion dur="2.6s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#t1"/></animateMotion></circle>
+    <circle r="3.5" fill="#a78bfa"><animateMotion dur="2.0s" repeatCount="indefinite" begin="0.4s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#t2"/></animateMotion></circle>
+    <circle r="3.5" fill="#34d399"><animateMotion dur="3.0s" repeatCount="indefinite" begin="1s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#t3"/></animateMotion></circle>
+    <circle r="3.5" fill="#f472b6"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#t4"/></animateMotion></circle>
+    <circle r="3.5" fill="#22d3ee"><animateMotion dur="1.8s" repeatCount="indefinite" begin="0.6s"><mpath href="#t5"/></animateMotion></circle>
+    <circle r="3.5" fill="#fbbf24"><animateMotion dur="2.8s" repeatCount="indefinite" begin="0.2s"><mpath href="#t6"/></animateMotion></circle>
+    <circle r="3" fill="#a78bfa"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.3s" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#t7"/></animateMotion></circle>
+    <circle r="3" fill="#34d399"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#t8"/></animateMotion></circle>
+  </g>
+
+  <!-- Pins -->
+  <g class="pin">
+    <rect x="158" y="99" width="12" height="4" rx="1"/><rect x="158" y="113" width="12" height="4" rx="1"/>
+    <rect x="158" y="127" width="12" height="4" rx="1"/><rect x="158" y="138" width="12" height="4" rx="1"/>
+    <rect x="158" y="151" width="12" height="4" rx="1"/><rect x="158" y="165" width="12" height="4" rx="1"/>
+    <rect x="158" y="173" width="12" height="4" rx="1"/>
+    <rect x="310" y="99" width="12" height="4" rx="1"/><rect x="310" y="113" width="12" height="4" rx="1"/>
+    <rect x="310" y="127" width="12" height="4" rx="1"/><rect x="310" y="138" width="12" height="4" rx="1"/>
+    <rect x="310" y="151" width="12" height="4" rx="1"/><rect x="310" y="165" width="12" height="4" rx="1"/>
+    <rect x="310" y="173" width="12" height="4" rx="1"/>
+    <rect x="198" y="58" width="4" height="12" rx="1"/><rect x="213" y="58" width="4" height="12" rx="1"/>
+    <rect x="228" y="58" width="4" height="12" rx="1"/><rect x="248" y="58" width="4" height="12" rx="1"/>
+    <rect x="263" y="58" width="4" height="12" rx="1"/><rect x="278" y="58" width="4" height="12" rx="1"/>
+    <rect x="198" y="210" width="4" height="12" rx="1"/><rect x="213" y="210" width="4" height="12" rx="1"/>
+    <rect x="228" y="210" width="4" height="12" rx="1"/><rect x="248" y="210" width="4" height="12" rx="1"/>
+    <rect x="263" y="210" width="4" height="12" rx="1"/><rect x="278" y="210" width="4" height="12" rx="1"/>
+  </g>
+
+  <!-- Chip body -->
+  <rect x="170" y="70" width="140" height="140" rx="10" fill="url(#die)" stroke="#3b5b8f" stroke-width="2"/>
+  <rect x="190" y="90" width="100" height="100" rx="6" fill="none" stroke="#2c4570" stroke-dasharray="4 4"/>
+  <circle cx="184" cy="84" r="4" fill="#3b5b8f"/>
+  <g class="core">
+    <rect x="205" y="105" width="70" height="70" rx="4" fill="#0e2a3f" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+  </g>
+  <text x="240" y="137" text-anchor="middle" class="lbl" font-size="18" font-weight="700">SKPG</text>
+  <text x="240" y="156" text-anchor="middle" class="sub" font-size="10">ECE · VLSI</text>
+
+  <!-- Status LEDs -->
+  <circle class="led" cx="420" cy="82" r="5" fill="#34d399" filter="url(#glow)"/>
+  <circle class="led2" cx="438" cy="82" r="5" fill="#f472b6" filter="url(#glow)"/>
+  <text x="400" y="104" class="sub" font-size="9">PWR  CLK</text>
+  <text x="34" y="82" class="sub" font-size="9">CLK_100MHz</text>
+  <text x="34" y="132" class="sub" font-size="9">DATA[7:0]</text>
+  <text x="34" y="232" class="sub" font-size="9">RST_N</text>
+  <text x="372" y="132" class="sub" font-size="9">DOUT</text>
+
+  <!-- Oscilloscope strip: analog in, digital out -->
+  <rect x="40" y="276" width="400" height="64" rx="8" fill="#08101e" stroke="#1e3a5f"/>
+  <g clip-path="url(#scope)">
+    <g class="scroll">
+      <path fill="none" stroke="#22d3ee" stroke-width="1.8"
+        d="M40 298 q25 -18 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0"/>
+      <path fill="none" stroke="#f472b6" stroke-width="1.8"
+        d="M40 330 v-12 h50 v12 h50 v-12 h50 v12 h50 v-12 h50 v12 h50 v-12 h50 v12 h50 v-12 h50 v12 h50"/>
+    </g>
+  </g>
+  <text x="48" y="288" class="sub" font-size="8">CH1 analog</text>
+  <text x="380" y="288" class="sub" font-size="8">CH2 digital</text>
+</svg>
